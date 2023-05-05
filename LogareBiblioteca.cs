@@ -26,9 +26,13 @@ namespace Olimpiada_Csharp_2019_Nationala
         {
             string pass = Program.CripteazaParola(textBox2.Text);
             string em = textBox1.Text;
-            if (Program.dbInstance.Utilizatori.Any((u)=>u.Parola == pass && u.Email == em))
+            var ut = Program.dbInstance.Utilizatori.Find((u) => u.Parola == pass && u.Email == em);
+            if (ut != null)
             {
-
+                var form = new BibliotecarBiblioteca(ut.IdUtilizator);
+                form.Show();
+                this.Hide();
+                form.FormClosed += (s, ev) => { this.Close(); };
             }
             else
             {

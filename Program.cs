@@ -153,7 +153,7 @@ namespace Olimpiada_Csharp_2019_Nationala
             ReadDb();
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new BibliotecarBiblioteca(1));
+            Application.Run(new StartBiblioteca());
             WriteDb();
         }
     }

@@ -315,23 +315,23 @@
     </Rezervare>
     <Rezervare>
       <IdRezervare>11</IdRezervare>
-      <IdCititor>5</IdCititor>
+      <IdCititor>6</IdCititor>
       <IdCarte>7</IdCarte>
-      <DataRezervare>2023-05-05T21:27:55.9858458+03:00</DataRezervare>
+      <DataRezervare>2023-05-05T22:58:50.0024835+03:00</DataRezervare>
       <StatusRezervare>1</StatusRezervare>
     </Rezervare>
     <Rezervare>
       <IdRezervare>12</IdRezervare>
-      <IdCititor>5</IdCititor>
+      <IdCititor>6</IdCititor>
       <IdCarte>11</IdCarte>
-      <DataRezervare>2023-05-05T21:27:55.9858458+03:00</DataRezervare>
+      <DataRezervare>2023-05-05T22:58:50.0024835+03:00</DataRezervare>
       <StatusRezervare>1</StatusRezervare>
     </Rezervare>
     <Rezervare>
       <IdRezervare>13</IdRezervare>
-      <IdCititor>5</IdCititor>
+      <IdCititor>6</IdCititor>
       <IdCarte>18</IdCarte>
-      <DataRezervare>2023-05-05T21:27:55.9858458+03:00</DataRezervare>
+      <DataRezervare>2023-05-05T22:58:50.0024835+03:00</DataRezervare>
       <StatusRezervare>1</StatusRezervare>
     </Rezervare>
   </Rezervari>
@@ -698,7 +698,7 @@
       <IdCititor>6</IdCititor>
       <IdCarte>21</IdCarte>
       <DataImprumut>2019-05-15T14:22:45</DataImprumut>
-      <DataRestituire xsi:nil="true" />
+      <DataRestituire>2023-05-05T22:58:42.6978231+03:00</DataRestituire>
     </Imprumut>
     <Imprumut>
       <IdImprumut>53</IdImprumut>
@@ -856,17 +856,24 @@
     </Imprumut>
     <Imprumut>
       <IdImprumut>75</IdImprumut>
-      <IdCititor>5</IdCititor>
-      <IdCarte>8</IdCarte>
-      <DataImprumut>2023-05-05T21:28:13.5180449+03:00</DataImprumut>
-      <DataRestituire xsi:nil="true" />
+      <IdCititor>6</IdCititor>
+      <IdCarte>10</IdCarte>
+      <DataImprumut>2023-05-05T22:58:52.7180164+03:00</DataImprumut>
+      <DataRestituire>2023-05-05T22:58:57.8419925+03:00</DataRestituire>
     </Imprumut>
     <Imprumut>
       <IdImprumut>76</IdImprumut>
-      <IdCititor>5</IdCititor>
-      <IdCarte>20</IdCarte>
-      <DataImprumut>2023-05-05T21:28:13.5180449+03:00</DataImprumut>
-      <DataRestituire xsi:nil="true" />
+      <IdCititor>6</IdCititor>
+      <IdCarte>21</IdCarte>
+      <DataImprumut>2023-05-05T22:58:52.7180164+03:00</DataImprumut>
+      <DataRestituire>2023-05-05T22:58:57.3980837+03:00</DataRestituire>
+    </Imprumut>
+    <Imprumut>
+      <IdImprumut>77</IdImprumut>
+      <IdCititor>6</IdCititor>
+      <IdCarte>22</IdCarte>
+      <DataImprumut>2023-05-05T22:58:52.7180164+03:00</DataImprumut>
+      <DataRestituire>2023-05-05T22:58:58.0110837+03:00</DataRestituire>
     </Imprumut>
   </Imprumuturi>
 </DbModel>
